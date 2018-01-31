@@ -928,8 +928,8 @@ project
     onLoad () {
         setInterval(() => {
             this.num++;
-            this.$apply();
-        }, 1000)
+            this.$apply();//这个方法在API里详细讲解
+        }, 1000)
     }
     ```
 
